@@ -1,5 +1,9 @@
 package com.example.demo;
 
+import org.springframework.beans.factory.config.BeanDefinition;
+
+import java.util.concurrent.Executor;
+
 public class TestMath {
 
     private static void printArr(int[] arr) {
@@ -48,5 +52,6 @@ public class TestMath {
         int[] arr = {6, 4, 3, 2, 7, 9, 1, 8, 5};
         quickSort(arr, 0, arr.length - 1);
         printArr(arr);
+        BeanDefinition executor ;
     }
 }
